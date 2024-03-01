@@ -1,0 +1,19 @@
++---------------------+        +------------------------+
+|      MBotControl    |        |       Graficador       |
++---------------------+        +------------------------+
+| - serial_connection |        |                        |
+| - tiempos: list     |        |                        |
+| - posiciones: list  |        |                        |
+|                     |        |                        |
+| + __init__(port, ...) |      | + __init__(fig, ax)    |
+| + enviar_comando(...) |      | + mover_arriba()       |
+| + mover_abajo()      |       | + mover_abajo()        |
+| + mover_izquierda()  |       | + mover_izquierda()    |
+| + mover_derecha()    |       | + mover_derecha()      |
+| + detener()          |       | + detener()            |
+| + actualizar_grafica|        | + actualizar_grafica() |
+| + graficar_movimiento|       | + graficar_movimiento()|
++---------------------+        +------------------------+
+                               | - fig: matplotlib Figure|
+                               | - ax: matplotlib Axes  |
+                               +------------------------+
