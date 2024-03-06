@@ -1,6 +1,6 @@
 #include <MeMCore.h>
 
-MeUltrasonicSensor ultraSensor(PORT_4);
+MeUltrasonicSensor ultraSensor(PORT_5);
 
 void setup()
 {
